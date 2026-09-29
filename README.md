@@ -26,4 +26,7 @@ A compact USB-C Power Delivery (PD) power supply that accepts power from a USB-C
 ```text
 ├── docs/       # Project documentation, schematic and pcb print
 ├── lib/             # external footprints, symbols and 3D models
+└── usb-c-pd-supply.kicad_pcb  #kicad pcb file
+└── usb-c-pd-supply.kicad_sch  #kicad schematic file
+└── usb-c-pd-supply.kicad_pro  #kicad project file
 └── README.md
