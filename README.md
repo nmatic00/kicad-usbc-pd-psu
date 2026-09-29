@@ -1,6 +1,9 @@
 # USB-C PD Adjustable Power Supply
 
+Based on [FEDEVEL](https://github.com/FEDEVEL/usbc-advanced-power-supply) design.
 A compact USB-C Power Delivery (PD) power supply that accepts power from a USB-C PD adapter and provides a manually selectable output voltage through a DIP switch.
+
+![front](usb-c-pd-supply.png)
 
 ## Features
 
@@ -15,9 +18,6 @@ A compact USB-C Power Delivery (PD) power supply that accepts power from a USB-C
 - 4-layer PCB with dedicated ground and power planes
 - 90 Ω controlled-impedance USB 2.0 differential pair
 
-## Project Structure
+## License
+[CreativeCommons-Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
 
-```text
-├── docs/       # Project documentation, schematic and pcb print
-├── lib/             # external footprints, symbols and 3D models
-└── README.md
