@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SOIC127P600X175-16N") (type "KiCad") (uri "${KIPRJMOD}/lib/footprints/SOIC127P600X175-16N.pretty") (options "") (descr ""))
+	(lib (name "SOT95P280X145-5N") (type "KiCad") (uri "${KIPRJMOD}/lib/footprints/SOT95P280X145-5N.pretty") (options "") (descr ""))
+)
