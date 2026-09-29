@@ -9,7 +9,7 @@ A compact USB-C Power Delivery (PD) power supply that accepts power from a USB-C
 
 - USB-C PD input
 - Up to **100 W** PD capability
-- **5 V, 9 V, 12 V, 15 V, and 20 V** selectable outputs
+- **5 V, 9 V, 12 V and 20 V** selectable outputs
 - Manual voltage selection using a DIP switch
 - **CH224K** USB-C PD sink controller
 - LED indication of the selected output voltage
