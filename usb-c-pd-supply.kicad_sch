@@ -8284,7 +8284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01b85531-0538-4d70-8bbe-200cbc8dee0c")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 66.04 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8346,7 +8346,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8442,8 +8442,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04bcea33-2048-433e-a2c2-36a76672fdb1")
-		(property "Reference" "D4"
-			(at 257.81 85.344 0)
+		(property "Reference" "D6"
+			(at 257.81 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8454,6 +8454,7 @@
 		)
 		(property "Value" "Green"
 			(at 257.81 87.884 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8515,7 +8516,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8688,7 +8689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bd7b2c8-8f98-47f8-a5ad-be1dcbb20676")
-		(property "Reference" "D8"
+		(property "Reference" "D1"
 			(at 62.484 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +8753,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D8")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8770,7 +8771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e17eea6-2153-4eac-ba52-32cd6dc91b2f")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 152.4 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +8835,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9047,8 +9048,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23fd4893-3e50-4b80-b3d5-3e7dcc85e4f8")
-		(property "Reference" "R7"
-			(at 246.38 103.124 90)
+		(property "Reference" "R11"
+			(at 246.38 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9058,7 +9059,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 105.664 90)
+			(at 246.38 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9109,7 +9110,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9127,7 +9128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25e8bd7d-4dba-481f-b2dd-eead4d2062c0")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 163.83 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,7 +9192,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9208,7 +9209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30415591-422d-443a-a7c2-5a04c1fb0cef")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 84.5215 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +9273,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9368,7 +9369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "313d2608-6f7b-483e-8279-c99aa5a48133")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 215.9 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9428,7 +9429,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9612,8 +9613,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a2aa3dc-00e0-4340-9580-52eb24768cc0")
-		(property "Reference" "D6"
-			(at 257.81 113.284 0)
+		(property "Reference" "D9"
+			(at 257.81 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9624,6 +9625,7 @@
 		)
 		(property "Value" "Green"
 			(at 257.81 115.824 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9685,7 +9687,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D6")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9703,7 +9705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e5b94b1-eb4f-486d-931c-a155ed17d2be")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 59.69 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9763,7 +9765,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9781,7 +9783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4002ee64-8428-4435-89cf-283851740deb")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9841,7 +9843,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9938,7 +9940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4836c004-7c23-4877-bea0-b551830c90f5")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 158.75 123.5074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10013,7 +10015,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10531,7 +10533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c2ff330-de05-46dc-bf1f-730374fd37a3")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 110.49 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10595,7 +10597,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10612,8 +10614,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c9b692d-914a-4b64-8211-328cd39d9956")
-		(property "Reference" "R6"
-			(at 246.38 85.344 90)
+		(property "Reference" "R9"
+			(at 246.38 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10623,7 +10625,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 87.884 90)
+			(at 246.38 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10674,7 +10676,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10692,7 +10694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64066516-2fa3-497e-a798-4fea5b198f0b")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 217.17 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +10758,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10774,7 +10776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "666f5f0d-daab-489a-9274-c4de944540fc")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 127 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10838,7 +10840,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11092,7 +11094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f878e92-d82a-4f80-97f9-be4a7a2080b6")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 85.598 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11156,7 +11158,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11419,7 +11421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78286d7f-6161-4fcc-9cb6-b4da84188d40")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 95.504 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11483,7 +11485,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11657,8 +11659,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "897d7810-8cba-4474-8f35-35360ab82f59")
-		(property "Reference" "R8"
-			(at 246.38 113.284 90)
+		(property "Reference" "R12"
+			(at 246.38 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11668,7 +11670,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 115.824 90)
+			(at 246.38 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11719,7 +11721,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11736,7 +11738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "918182ff-dbe6-410c-b8fd-94a5b50e0f06")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 66.04 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11798,7 +11800,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11816,8 +11818,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cd16b07-55f4-4669-a6af-d7294cf41634")
-		(property "Reference" "D7"
-			(at 257.81 123.444 0)
+		(property "Reference" "D10"
+			(at 257.81 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11828,6 +11830,7 @@
 		)
 		(property "Value" "Green"
 			(at 257.81 125.984 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11889,7 +11892,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D7")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -11907,7 +11910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04042ee-fe3e-4dcf-b792-b01c9cdfe00a")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 140.97 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11971,7 +11974,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11989,8 +11992,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a197921e-17bf-4b0b-b3ba-677448aa1ab5")
-		(property "Reference" "D5"
-			(at 257.81 103.124 0)
+		(property "Reference" "D8"
+			(at 257.81 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12001,6 +12004,7 @@
 		)
 		(property "Value" "Green"
 			(at 257.81 105.664 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12062,7 +12066,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12080,7 +12084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a3b725-9f28-42bb-8835-f255105cae44")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 157.48 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12144,7 +12148,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12447,7 +12451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac7d86f1-0bdc-4fba-b01f-3adb412c25a9")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 34.29 159.385 0)
 			(hide yes)
 			(show_name no)
@@ -12507,7 +12511,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -12606,8 +12610,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4176e9d-ea6e-4b2e-a71d-9ea1da3a6b23")
-		(property "Reference" "R13"
-			(at 246.38 94.234 90)
+		(property "Reference" "R10"
+			(at 246.38 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12617,7 +12621,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 96.774 90)
+			(at 246.38 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12668,7 +12672,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12686,7 +12690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5740ea2-7b9d-4de0-8e5a-d608e15d8c64")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 60.96 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12746,7 +12750,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12764,7 +12768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7a63ccf-d0fa-4043-936b-e5035fdf0efd")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 209.55 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12828,7 +12832,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12845,7 +12849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b94f3a6d-8362-4256-9c1e-af74fcfabb35")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 107.1275 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12909,7 +12913,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13006,7 +13010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c21a8ea1-fd28-42b4-8477-9661c0828dfb")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 224.79 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13070,7 +13074,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13243,8 +13247,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48a9ff0-cd4d-4524-a854-377e38b1caff")
-		(property "Reference" "R9"
-			(at 246.38 123.444 90)
+		(property "Reference" "R13"
+			(at 246.38 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13254,7 +13258,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 125.984 90)
+			(at 246.38 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13305,7 +13309,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13323,8 +13327,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6a33dfd-30c6-4480-92ec-d75259a92647")
-		(property "Reference" "D10"
-			(at 257.81 94.234 0)
+		(property "Reference" "D7"
+			(at 257.81 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13335,6 +13339,7 @@
 		)
 		(property "Value" "Green"
 			(at 257.81 96.774 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13396,7 +13401,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D10")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13414,7 +13419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7d7b03a-09e3-4016-956e-5b7ae2cbf0a1")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 71.12 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13474,7 +13479,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13744,7 +13749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc70bac7-036c-4fee-b27d-e511ca390ffb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 67.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13804,7 +13809,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13821,7 +13826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d153d123-1f24-456f-a5fd-fc4f2c1dfd06")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 217.17 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13881,7 +13886,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13976,7 +13981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d5b868-ec61-4930-ba5f-d67bfac7dcd8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 229.87 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14036,7 +14041,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14136,7 +14141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9e74ea7-db64-446c-8f0e-670aa311dd37")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 74.168 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,7 +14205,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14218,7 +14223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec34f394-bc8e-4303-9aae-865066e403d8")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 112.395 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14279,7 +14284,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -14297,7 +14302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efaaa43a-99c9-413a-a52a-b20fef9c474d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR017"
 			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14357,7 +14362,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR023")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14461,7 +14466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4692af4-f38a-4419-afa9-9ab14b5c808a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR023"
 			(at 196.85 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14521,7 +14526,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR030")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14539,7 +14544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6463988-e217-4b45-866c-8ce938bb51ea")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 222.25 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14599,7 +14604,7 @@
 		(instances
 			(project "usb-c-pd-supply"
 				(path "/73bf3851-c823-430c-a15c-1daf0314c653"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
